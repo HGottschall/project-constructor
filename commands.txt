@@ -1,0 +1,9 @@
+py -3.11 -m venv venv
+cd venv
+Scripts/activate
+cd ..
+python.exe -m pip install --upgrade pip
+pip install -r requirements.txt
+
+python -m spacy download pt_core_news_sm
+python -m spacy download pt_core_news_md
