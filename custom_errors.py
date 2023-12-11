@@ -1,5 +1,5 @@
 from colorama import Fore, Style
-from src.shared.Utils.ErrorMessages.errors_level import AlertLevel
+from src.shared.utils.ErrorMessages.errors_level import AlertLevel
 
 
 def display_error_message(level: AlertLevel, error_message: str) -> None:
