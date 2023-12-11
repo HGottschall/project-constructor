@@ -1,7 +1,7 @@
 from typing import TypeVar, Any, TypeGuard, Dict, List
-from src.shared.Utils.ErrorMessages.errors_level import AlertLevel
+from src.shared.utils.ErrorMessages.errors_level import AlertLevel
 
-from src.shared.Utils.ErrorMessages.custom_errors import (
+from src.shared.utils.ErrorMessages.custom_errors import (
     display_error_message,
 )
 
